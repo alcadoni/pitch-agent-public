@@ -7,9 +7,9 @@
 
 # Overview
 
-Pitch Agent is a modular multi-agent AI system that transforms minimal founder input into an investor-ready pitch.
+Pitch Agent is a modular multi-agent AI system designed to transform minimal founder input into an investor-ready pitch through coordinated AI reasoning.
 
-Rather than generating slides directly, the platform coordinates specialised AI reasoning across strategy, research, narrative, validation and presentation planning before producing a structured pitch specification and presentation.
+Rather than generating slides directly, the platform orchestrates specialised reasoning across strategy, research, narrative, validation and presentation planning before producing structured outputs for founder decision-making.
 
 This public repository showcases the engineering architecture behind Pitch Agent.
 
@@ -36,8 +36,8 @@ The production implementation, proprietary prompts, reasoning logic and commerci
 | Founder Input | Company • Market • Problem • Solution • Audience |
 | Reasoning Engine | Category Inference • Research • Strategy • Narrative • Strategic Synthesis |
 | Evaluation Engine | Validation • Rubric Scoring • Traction Analysis • Investor Challenges |
-| Planning Engine | Slide Planner • Deck Specification • Presentation Structure |
-| Outputs | Founder Report • Investor Memo • Pitch Specification • PowerPoint Rendering |
+| Planning Engine | Structured Founder Report • Slide Planning • Deck Specification |
+| Outputs | Founder Report • Investor Memo • Strategic Recommendations |
 
 ---
 
@@ -71,13 +71,7 @@ Validation Engine
 Evidence & Rubric Scoring
        │
        ▼
-Slide Planner
-       │
-       ▼
-Deck Specification
-       │
-       ▼
-Presentation Rendering
+Founder Report
 ```
 
 ---
@@ -99,9 +93,7 @@ Presentation Rendering
 | ✅ | Rubric scoring |
 | ✅ | Traction maturity assessment |
 | ✅ | Investor challenge generation |
-| ✅ | Slide planning |
-| ✅ | JSON deck specification |
-| ✅ | PowerPoint rendering |
+| ✅ | Structured founder reports |
 | ✅ | Streamlit founder interface |
 | ✅ | FastAPI backend |
 
@@ -109,11 +101,11 @@ Presentation Rendering
 
 | Status | Objective |
 |:------:|-----------|
-| 🚧 | Reasoning quality improvements |
-| 🚧 | Agent coordination refinement |
-| 🚧 | Narrative optimisation |
-| 🚧 | Evidence-based validation |
-| 🚧 | End-to-end pitch quality |
+| 🚧 | Improve reasoning quality |
+| 🚧 | Refine strategy and narrative synthesis |
+| 🚧 | Strengthen evidence-based validation |
+| 🚧 | Produce investor-grade pitch quality |
+| 🚧 | End-to-end presentation generation |
 
 ---
 
@@ -141,10 +133,11 @@ app/
 │   ├── research
 │   ├── strategy
 │   ├── narrative
-│   ├── synthesis
+│   ├── strategic_synthesis
 │   ├── validation
-│   ├── scoring
-│   └── planning
+│   ├── rubric_scoring
+│   ├── traction_maturity
+│   └── slide_planner
 │
 ├── api/
 ├── render/
@@ -187,7 +180,7 @@ tests/
 
 Pitch Agent is being developed as an autonomous AI pitch partner capable of combining specialised reasoning across strategy, research, positioning, narrative and validation into a single coherent pitch from minimal founder input.
 
-The objective is not simply to generate presentations, but to replicate the structured thinking normally provided by multiple experienced professionals before producing an investor-ready outcome.
+The objective is to help founders replace fragmented advice from multiple specialists with one coordinated AI reasoning system that supports the creation of exceptional startup narratives and investor-ready communication.
 
 ---
 
