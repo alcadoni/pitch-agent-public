@@ -76,7 +76,7 @@ Founder Report
 
 ---
 
-# Development Status
+# Current Implementation
 
 ## Implemented
 
@@ -109,7 +109,7 @@ Founder Report
 
 ---
 
-# Technology Stack
+# Engineering Stack
 
 | Layer | Technology |
 |--------|------------|
@@ -121,7 +121,7 @@ Founder Report
 | Presentation | python-pptx |
 | APIs | REST |
 | Development | GitHub Codespaces |
-| AI Development | Devin • OpenAI Codex |
+| AI Development | AI Coding Agents (Devin • OpenAI Codex) |
 
 ---
 
